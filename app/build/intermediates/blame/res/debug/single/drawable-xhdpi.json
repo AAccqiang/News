@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fun_share_weixin.png",
+        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-xhdpi\\fun_share_weixin.png"
+    },
+    {
+        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fun_share_friends.png",
+        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-xhdpi\\fun_share_friends.png"
+    },
+    {
+        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\share_little_bg.png",
+        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-xhdpi\\share_little_bg.png"
+    },
+    {
+        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fun_share_weibo.png",
+        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-xhdpi\\fun_share_weibo.png"
+    }
+]

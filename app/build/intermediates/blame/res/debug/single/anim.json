@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_out.xml",
+        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\anim\\bottom_out.xml"
+    },
+    {
+        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading.xml",
+        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\anim\\loading.xml"
+    },
+    {
+        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\right_in.xml",
+        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\anim\\right_in.xml"
+    }
+]

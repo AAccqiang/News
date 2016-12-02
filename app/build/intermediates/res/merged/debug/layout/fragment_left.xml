@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_slidingmenu_left"
+    android:orientation="vertical"
+    android:paddingBottom="40dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    >
+
+    <RelativeLayout
+
+
+        android:id="@+id/ToNews"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/fragment_left_color"
+        >
+
+        <ImageView
+            android:id="@+id/fragment_left_img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/biz_navigation_tab_news"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:id="@+id/tv_left1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/news"
+            android:textSize="@dimen/fragment_size"
+            android:layout_toRightOf="@id/fragment_left_img1"
+            android:layout_alignTop="@id/fragment_left_img1"
+            android:textColor="@android:color/white"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/news_eng"
+            android:layout_toRightOf="@id/fragment_left_img1"
+            android:layout_below="@+id/tv_left1"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/ToFavorite"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        >
+
+        <ImageView
+            android:id="@+id/fragment_left_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/biz_navigation_tab_read"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:id="@+id/tv_left2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收藏"
+            android:textSize="@dimen/fragment_size"
+            android:layout_toRightOf="@id/fragment_left_img2"
+            android:layout_alignTop="@id/fragment_left_img2"
+            android:textColor="@android:color/white"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FAVORITE"
+            android:layout_toRightOf="@id/fragment_left_img2"
+            android:layout_below="@+id/tv_left2"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ToLocat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        >
+
+        <ImageView
+            android:id="@+id/fragment_left_img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/biz_navigation_tab_local_news"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:id="@+id/tv_left3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本地"
+            android:textSize="@dimen/fragment_size"
+            android:layout_toRightOf="@id/fragment_left_img3"
+            android:layout_alignTop="@id/fragment_left_img3"
+            android:textColor="@android:color/white"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOCAT"
+            android:layout_toRightOf="@id/fragment_left_img3"
+            android:layout_below="@+id/tv_left3"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/ToComment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        >
+
+        <ImageView
+            android:id="@+id/fragment_left_img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/biz_navigation_tab_ties"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:id="@+id/tv_left4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跟帖"
+            android:textSize="@dimen/fragment_size"
+            android:layout_toRightOf="@id/fragment_left_img4"
+            android:layout_alignTop="@id/fragment_left_img4"
+            android:textColor="@android:color/white"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMMENT"
+            android:layout_toRightOf="@id/fragment_left_img4"
+            android:layout_below="@+id/tv_left4"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ToPhone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        >
+
+        <ImageView
+            android:id="@+id/fragment_left_img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/biz_navigation_tab_pics"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:id="@+id/tv_left5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片"
+            android:textSize="@dimen/fragment_size"
+            android:layout_toRightOf="@id/fragment_left_img5"
+            android:layout_alignTop="@id/fragment_left_img5"
+            android:textColor="@android:color/white"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHONE"
+            android:layout_toRightOf="@id/fragment_left_img5"
+            android:layout_below="@+id/tv_left5"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+</LinearLayout>

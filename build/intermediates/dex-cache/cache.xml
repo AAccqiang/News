@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\androidPJ\News1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="274f072ad710f535c23304ccab3178eacc0794dc">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\instant-run_e595fdd9f2c10a2b4f2663af9f8c950dd1fd3300.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\androidPJ\News1\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_22285ea8ec273ac3ce0e9a867b085ddc08113099.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\androidPJ\News1\app\libs\slidingmenulibary.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a66ce811311c797f18f049a4f360410a132fde43">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\slidingmenulibary_e85d4e02e4bf2a9fbe5afc0835353e09ee766512.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\gson-2.8.0_8fa535b92840c083f18ff5b21bc40831e2a41d46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\eventbus-3.0.0_010c9506eb0289e0aded204e5b1c68f27f8a11f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_2e493ab8b6e0a3b0d8916d86640e4b3b34dba667.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\androidPJ\News1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b17a55cbd002eb3e0dc97b7622ad1cd252572cb0">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_c91a7ce0c95156a88784b2c295c6dfb16eb3cdbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao-api\3.2.0\c6d610abe1d75d758431c9234917a349abc0a0ac\greendao-api-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c6d610abe1d75d758431c9234917a349abc0a0ac">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\greendao-api-3.2.0_b8e985e028e9247e44c4308138bed9958c2648fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao\3.2.0\e70040568b2929b8e5869ad1ffca8e4386dc53bc\greendao-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e70040568b2929b8e5869ad1ffca8e4386dc53bc">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\greendao-3.2.0_3121e62f5d8d6fbf07a99739d364450ebe72d2a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\eu.the4thfloor.volley\com.android.volley\2015.05.28\b0b08cc0ac897e596abe6b263a9507cba875b705\com.android.volley-2015.05.28.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b0b08cc0ac897e596abe6b263a9507cba875b705">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\com.android.volley-2015.05.28_d7c78b7468f91aaecc56fd25f28445ab223c102f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\86409\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.0\support-annotations-24.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\support-annotations-24.1.0_12af531479aa7b25fdfe30abbc2cbe65bfc1de3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\86409\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_4c34b2bddf340b557693dedfa6b94c38fd21b746.jar" />
+    </item>
+
+</items>

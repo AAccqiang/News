@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bd.jpg",
+        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\bd.jpg"
+    },
+    {
+        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\small.jpg",
+        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\small.jpg"
+    },
+    {
+        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\welcome.jpg",
+        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\welcome.jpg"
+    },
+    {
+        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_slidingmenu_left.jpg",
+        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\bg_slidingmenu_left.jpg"
+    }
+]
