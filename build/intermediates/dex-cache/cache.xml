@@ -3,39 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="E:\androidPJ\News1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="E:\News\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="274f072ad710f535c23304ccab3178eacc0794dc">
-        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\instant-run_e595fdd9f2c10a2b4f2663af9f8c950dd1fd3300.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\androidPJ\News1\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
-        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_22285ea8ec273ac3ce0e9a867b085ddc08113099.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\androidPJ\News1\app\libs\slidingmenulibary.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a66ce811311c797f18f049a4f360410a132fde43">
-        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\slidingmenulibary_e85d4e02e4bf2a9fbe5afc0835353e09ee766512.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
-        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\gson-2.8.0_8fa535b92840c083f18ff5b21bc40831e2a41d46.jar" />
+        sha1="35f9824458a59a02e122db42b965b653a0d7e42d">
+        <dex dex="E:\News\app\build\intermediates\pre-dexed\debug\instant-run_82e8afa006b14c517cde0a14bb05763243da12c2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,30 +30,57 @@
     </item>
     <item
         is-multidex="false"
+        jar="E:\News\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="E:\News\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_e35f21edc40243f961c74d88fe07df20cd216038.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="E:\News\app\build\intermediates\pre-dexed\debug\okio-1.9.0_fa5bbaf26798498c9efd2fa8fa99b453eb237ca3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\androidPJ\News1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="274f072ad710f535c23304ccab3178eacc0794dc">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\instant-run_e595fdd9f2c10a2b4f2663af9f8c950dd1fd3300.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\News\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c431048a302ccc289d2ad4182b124b11752aa9d9">
+        <dex dex="E:\News\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_cf353738e0c54155ea9ad8aa5f614ff582e9a9e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\gson-2.8.0_8fa535b92840c083f18ff5b21bc40831e2a41d46.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\androidPJ\News1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="b17a55cbd002eb3e0dc97b7622ad1cd252572cb0">
         <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_c91a7ce0c95156a88784b2c295c6dfb16eb3cdbb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao-api\3.2.0\c6d610abe1d75d758431c9234917a349abc0a0ac\greendao-api-3.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c6d610abe1d75d758431c9234917a349abc0a0ac">
-        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\greendao-api-3.2.0_b8e985e028e9247e44c4308138bed9958c2648fa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao\3.2.0\e70040568b2929b8e5869ad1ffca8e4386dc53bc\greendao-3.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e70040568b2929b8e5869ad1ffca8e4386dc53bc">
-        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\greendao-3.2.0_3121e62f5d8d6fbf07a99739d364450ebe72d2a3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,12 +102,66 @@
     </item>
     <item
         is-multidex="false"
+        jar="E:\androidPJ\News1\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_22285ea8ec273ac3ce0e9a867b085ddc08113099.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\androidPJ\News1\app\libs\slidingmenulibary.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a66ce811311c797f18f049a4f360410a132fde43">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\slidingmenulibary_e85d4e02e4bf2a9fbe5afc0835353e09ee766512.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\86409\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
         <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_4c34b2bddf340b557693dedfa6b94c38fd21b746.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\News\app\libs\slidingmenulibary.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a66ce811311c797f18f049a4f360410a132fde43">
+        <dex dex="E:\News\app\build\intermediates\pre-dexed\debug\slidingmenulibary_39372f5d70ff30aba662a38d43984206a51ebd45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao-api\3.2.0\c6d610abe1d75d758431c9234917a349abc0a0ac\greendao-api-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c6d610abe1d75d758431c9234917a349abc0a0ac">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\greendao-api-3.2.0_b8e985e028e9247e44c4308138bed9958c2648fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao\3.2.0\e70040568b2929b8e5869ad1ffca8e4386dc53bc\greendao-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e70040568b2929b8e5869ad1ffca8e4386dc53bc">
+        <dex dex="E:\androidPJ\News1\app\build\intermediates\pre-dexed\debug\greendao-3.2.0_3121e62f5d8d6fbf07a99739d364450ebe72d2a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\86409\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.2\ccde00f7ccc77af5a6d5752e2cb21f6d8998289f\okhttp-3.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="E:\News\app\build\intermediates\pre-dexed\debug\okhttp-3.4.2_f1d0aa6345dc8e2177d3fae38cc1cb00f43c26ea.jar" />
     </item>
 
 </items>

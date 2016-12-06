@@ -69,13 +69,7 @@ public class LeadActivity extends Activity{
 	}
 
 
-	private void inits(){
-		for(int i = 0;i < imageArray.length;i++){
-			ImageView lead_imageView = (ImageView) getLayoutInflater().inflate(R.layout.activity_lead, null);
-			lead_imageView.setImageResource(imageArray[i]);
-			viewList.add(lead_imageView);
-		}
-	}
+
 	
 	private void initViewPager(){
 		for(int i = 0;i < imageArray.length;i++){

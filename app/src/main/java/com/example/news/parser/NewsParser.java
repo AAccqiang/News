@@ -3,6 +3,7 @@ package com.example.news.parser;
 import android.util.Log;
 
 import com.example.news.entity.BaseEntity;
+import com.example.news.entity.CommentEntity;
 import com.example.news.entity.News;
 import com.example.news.entity.NewsType;
 import com.example.news.entity.SubType;
@@ -30,7 +31,7 @@ public class NewsParser {
 
 
     public static List<News> parseNews(String json){
-        System.out.println(json + " ssssssssssaa");
+
         Gson gson = new Gson();
         Type type = new TypeToken<BaseEntity<List<News>>>(){}.getType();
         BaseEntity<List<News>> baseEntity = gson.fromJson(json,type);
@@ -40,5 +41,16 @@ public class NewsParser {
         }
         return  null;
 
+    }
+
+
+    public static  List<CommentEntity> parseComment(String json){
+        Gson gson = new Gson();
+        BaseEntity<List<CommentEntity>> baseEntity = gson.fromJson(json,new TypeToken<BaseEntity<List<CommentEntity>>>(){}.getType());
+
+        if(baseEntity != null){
+            return baseEntity.getData();
+        }
+        return null;
     }
 }

@@ -40,7 +40,7 @@
         android:id="@+id/btn_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/longbutton_normal"
+        android:background="@drawable/longbutton_selector"
         android:text="立即注册"
         android:textColor="#fff"
         android:textSize="18sp"

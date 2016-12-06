@@ -1,94 +1,102 @@
 [
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\longbutton_pressed.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\longbutton_pressed.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\news_menu.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\news_menu.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\back.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\back.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\biz_pc_main_info_profile_avatar_bg_dark.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\biz_pc_main_info_profile_avatar_bg_dark.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\xlistview_arrow.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\xlistview_arrow.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading_01.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\loading_01.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\biz_navigation_tab_local_news.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\biz_navigation_tab_local_news.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\defaultpic.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\defaultpic.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\normalbutton_normal.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\normalbutton_normal.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\news_menu.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\news_menu.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\biz_navigation_tab_news.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\biz_navigation_tab_news.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\back.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\back.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_title_home_default.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\ic_title_home_default.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\biz_navigation_tab_read.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\biz_navigation_tab_read.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\send.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\send.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\addimport_qq.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\addimport_qq.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\biz_navigation_tab_ties.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\biz_navigation_tab_ties.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\longbutton_normal.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\longbutton_normal.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wy.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\wy.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading_01.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\loading_01.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\biz_navigation_tab_pics.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\biz_navigation_tab_pics.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\typemore_normal.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\typemore_normal.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\defaultpic.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\defaultpic.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\typemore_normal.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\typemore_normal.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_title_share_default.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\ic_title_share_default.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\biz_navigation_tab_local_news.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\biz_navigation_tab_local_news.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\biz_navigation_tab_pics.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\biz_navigation_tab_pics.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\longbutton_pressed.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\longbutton_pressed.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\typemore_pressed.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\typemore_pressed.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\typemore_pressed.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\typemore_pressed.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_title_home_default.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\ic_title_home_default.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_title_share_default.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\ic_title_share_default.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\userbg.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\userbg.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\biz_navigation_tab_read.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\biz_navigation_tab_read.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\biz_navigation_tab_ties.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\biz_navigation_tab_ties.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\normalbutton_normal.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\normalbutton_normal.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wy.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\wy.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\normalbutton_pressed.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\normalbutton_pressed.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\xlistview_arrow.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\xlistview_arrow.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\biz_pc_main_info_profile_avatar_bg_dark.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\biz_pc_main_info_profile_avatar_bg_dark.png"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\biz_navigation_tab_news.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable-hdpi\\biz_navigation_tab_news.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\userbg.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\userbg.png"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\longbutton_normal.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\longbutton_normal.png"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\addimport_qq.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable-hdpi\\addimport_qq.png"
     }
 ]

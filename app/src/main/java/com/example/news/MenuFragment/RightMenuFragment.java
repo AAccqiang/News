@@ -1,5 +1,7 @@
 package com.example.news.MenuFragment;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -8,9 +10,15 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.news.R;
+import com.example.news.activity.UserActivity;
+import com.example.news.entity.BaseEntity;
 import com.example.news.entity.MessageEvent;
+import com.example.news.entity.UserResponse;
+import com.example.news.utils.CommonUtils;
+import com.example.news.utils.SharedPreferencesUtils;
 
 import org.greenrobot.eventbus.EventBus;
 
@@ -54,6 +62,32 @@ public class RightMenuFragment extends Fragment {
         ButterKnife.bind(this,view);
         return view;
     }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        String name = SharedPreferencesUtils.readName(getActivity());
+
+        if(!name.equals("")){
+            llLogin.setVisibility(View.VISIBLE);
+            llUnLogin.setVisibility(View.INVISIBLE);
+            tvLogin.setText(name);
+        }
+    }
+
+    @OnClick(R.id.im_right_login)
+    public  void toUser(){
+        Intent intent = new Intent(getActivity(), UserActivity.class);
+        startActivity(intent);
+
+    }
+
+    @OnClick(R.id.tv_right_login)
+    public void toUser2(){
+        toUser();
+    }
+
+
 
     @OnClick(R.id.im_right_unlogin)
     public void publishAddLoginFragmentEvent(){

@@ -13,6 +13,11 @@ public class MessageEvent {
     public static  final int TYPE_FORGOT_PASSWORD =3;
     //将要添加MainFragment
     public static  final int TYPE_MAIN_FRAGMENT = 4;
+    //显示未登陆视图
+    public static  final int TYPE_RIGHT_MENU_UNLOGIN = 5;
+
+    //显示已登陆视图
+    public static  final  int TYPE_RIGHT_MENU_LOGIN = 6;
 
     private int type;
     private String fragmentFullName;

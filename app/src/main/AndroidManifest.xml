@@ -35,6 +35,8 @@
         <activity android:name="com.example.news.activity.LogoActivity"></activity>
         <activity android:name="com.example.news.activity.HomeActivity"></activity>
         <activity android:name=".activity.ShowNewsActivity" />
+        <activity android:name=".activity.UserActivity"/>
+        <activity android:name=".activity.CommentActivity"/>
 
     </application>
 

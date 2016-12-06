@@ -1,22 +1,42 @@
 [
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\type_more.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable\\type_more.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable\\button_selector.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_dialog.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable\\select_dialog.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\line_user.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable\\line_user.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable\\button_selector.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exitbutton_selector.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable\\exitbutton_selector.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sorry.png",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable\\sorry.png"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_dialog.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable\\select_dialog.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\longbutton_selector.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\drawable\\longbutton_selector.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\longbutton_selector.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable\\longbutton_selector.xml"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sorry.png",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable\\sorry.png"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dian_color.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable\\dian_color.xml"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wei_color.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable\\wei_color.xml"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\content_bg.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable\\content_bg.xml"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\type_more.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\drawable\\type_more.xml"
     }
 ]

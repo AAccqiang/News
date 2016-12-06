@@ -16,9 +16,11 @@ import java.lang.Override;
 public class LoginFragment_ViewBinding<T extends LoginFragment> implements Unbinder {
   protected T target;
 
-  private View view2131361825;
+  private View view2131361830;
 
-  private View view2131361826;
+  private View view2131361831;
+
+  private View view2131361832;
 
   @UiThread
   public LoginFragment_ViewBinding(final T target, View source) {
@@ -29,7 +31,7 @@ public class LoginFragment_ViewBinding<T extends LoginFragment> implements Unbin
     target.etPassword = Utils.findRequiredViewAsType(source, R.id.et_password, "field 'etPassword'", EditText.class);
     view = Utils.findRequiredView(source, R.id.btn_register_login, "field 'btnRegister' and method 'publishAddRegisterFragmentEvent'");
     target.btnRegister = Utils.castView(view, R.id.btn_register_login, "field 'btnRegister'", Button.class);
-    view2131361825 = view;
+    view2131361830 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -38,14 +40,22 @@ public class LoginFragment_ViewBinding<T extends LoginFragment> implements Unbin
     });
     view = Utils.findRequiredView(source, R.id.btn_forgot_password, "field 'btnForgotPassword' and method 'publishAddforgotFragmentEvent'");
     target.btnForgotPassword = Utils.castView(view, R.id.btn_forgot_password, "field 'btnForgotPassword'", Button.class);
-    view2131361826 = view;
+    view2131361831 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.publishAddforgotFragmentEvent();
       }
     });
-    target.btnLogon = Utils.findRequiredViewAsType(source, R.id.btn_login, "field 'btnLogon'", Button.class);
+    view = Utils.findRequiredView(source, R.id.btn_login, "field 'btnLogon' and method 'login'");
+    target.btnLogon = Utils.castView(view, R.id.btn_login, "field 'btnLogon'", Button.class);
+    view2131361832 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.login();
+      }
+    });
   }
 
   @Override
@@ -60,10 +70,12 @@ public class LoginFragment_ViewBinding<T extends LoginFragment> implements Unbin
     target.btnForgotPassword = null;
     target.btnLogon = null;
 
-    view2131361825.setOnClickListener(null);
-    view2131361825 = null;
-    view2131361826.setOnClickListener(null);
-    view2131361826 = null;
+    view2131361830.setOnClickListener(null);
+    view2131361830 = null;
+    view2131361831.setOnClickListener(null);
+    view2131361831 = null;
+    view2131361832.setOnClickListener(null);
+    view2131361832 = null;
 
     this.target = null;
   }

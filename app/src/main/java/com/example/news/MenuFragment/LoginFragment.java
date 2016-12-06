@@ -1,5 +1,6 @@
 package com.example.news.MenuFragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -9,7 +10,18 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.news.R;
+import com.example.news.activity.UserActivity;
+import com.example.news.entity.BaseEntity;
 import com.example.news.entity.MessageEvent;
+import com.example.news.entity.UserResponse;
+import com.example.news.listener.FailListener;
+import com.example.news.listener.SuccessListener;
+import com.example.news.utils.CommonUtils;
+import com.example.news.utils.OkHttpUtils;
+import com.example.news.utils.SharedPreferencesUtils;
+import com.example.news.utils.Url;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
 import org.greenrobot.eventbus.EventBus;
 
@@ -17,9 +29,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-/**
- * Created by 86409 on 2016/12/2.
- */
+
 
 public class LoginFragment extends Fragment {
 
@@ -57,4 +67,61 @@ public class LoginFragment extends Fragment {
         event.setFragmentFullName(ForgetPasswordFragment.class.getName());
         EventBus.getDefault().post(event);
     }
+
+    @OnClick(R.id.btn_login)
+    public void login(){
+        String username = etNickname.getText().toString();
+        String password = etPassword.getText().toString();
+
+        if(!CommonUtils.veriftName(username)){
+            CommonUtils.showShort(getActivity(),"请输入正确的用户名");
+            return;
+        }
+
+        if(!CommonUtils.veriftPassword(password)){
+            CommonUtils.showShort(getActivity(),"请输入正确的密码");
+            return;
+        }
+
+        OkHttpUtils.doGet(Url.LOGIN + "?ver=0&device=0&uid="+username+"&pwd="+password,successListener,failListener);
+
+    }
+
+    private SuccessListener successListener = new SuccessListener() {
+        @Override
+        public void onSuccess(String json) {
+            System.out.println(json + "+++++++++++++++++++++++++++++login");
+            Gson gson = new Gson();
+            BaseEntity<UserResponse> baseEntity = gson.fromJson(json,new TypeToken<BaseEntity<UserResponse>>(){}.getType());
+            CommonUtils.showShort(getActivity(),baseEntity.getStatus());
+            if(baseEntity.getStatus().equals("0")){
+                if(baseEntity.getData().getResult() == 0){
+
+                    String username = etNickname.getText().toString();
+                    SharedPreferencesUtils.saveName(getActivity(),username);
+                    SharedPreferencesUtils.saveBaseEntity(getActivity(),baseEntity);
+
+//                    MessageEvent messageEvent = new MessageEvent();
+//                    messageEvent.setType(MessageEvent.TYPE_MAIN_FRAGMENT);
+//                    EventBus.getDefault().post(messageEvent);
+
+                    startActivity(new Intent(getActivity(), UserActivity.class));
+
+
+                    getActivity().overridePendingTransition(R.anim.right_in,R.anim.bottom_out);
+                }else{
+                    CommonUtils.showShort(getActivity(),baseEntity.getData().getExplanin());
+                }
+            }else{
+                CommonUtils.showShort(getActivity(),"登陆失败，请重试");
+            }
+        }
+    };
+
+    private FailListener failListener = new FailListener() {
+        @Override
+        public void onFail(String error) {
+            CommonUtils.showShort(getActivity(),"网络异常,请重试");
+        }
+    };
 }

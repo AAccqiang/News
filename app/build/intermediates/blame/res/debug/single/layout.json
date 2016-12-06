@@ -1,86 +1,102 @@
 [
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_left_menu.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\layout_left_menu.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\xlistview_header.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_right_menu.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\layout_right_menu.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_left.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\fragment_left.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\fragment_register.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\news_comment_item.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\news_comment_item.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loading_fail.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\loading_fail.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\fragment_login.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_left_menu.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\layout_left_menu.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_forget_password.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\fragment_forget_password.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\news_user_login.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\news_user_login.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\fragment_main.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\fragment_main.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_window.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\popup_window.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_window.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\popup_window.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\activity_user.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loading_fail.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\loading_fail.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\fragment_register.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_news.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\activity_show_news.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_news.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\activity_show_news.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\fragment_right.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_left.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\fragment_left.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\fragment_right.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_head.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\layout_head.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_right_menu.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\layout_right_menu.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_logo.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\activity_logo.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comment.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\activity_comment.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\news_type_list_item.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\news_type_list_item.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\news_type_list_item.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\news_type_list_item.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lead.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\activity_lead.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loading.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\loading.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loading.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\loading.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_head.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\layout_head.xml"
     },
     {
-        "merged": "E:\\androidPJ\\News1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\news_list_item.xml",
-        "source": "E:\\androidPJ\\News1\\app\\src\\main\\res\\layout\\news_list_item.xml"
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_logo.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\activity_logo.xml"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\news_list_item.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\news_list_item.xml"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_forget_password.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\fragment_forget_password.xml"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lead.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\activity_lead.xml"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\fragment_login.xml"
     }
 ]

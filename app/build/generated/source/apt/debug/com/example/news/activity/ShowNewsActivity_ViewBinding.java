@@ -18,11 +18,11 @@ import java.lang.Override;
 public class ShowNewsActivity_ViewBinding<T extends ShowNewsActivity> implements Unbinder {
   protected T target;
 
-  private View view2131361801;
+  private View view2131361805;
 
-  private View view2131361802;
+  private View view2131361806;
 
-  private View view2131361803;
+  private View view2131361807;
 
   @UiThread
   public ShowNewsActivity_ViewBinding(final T target, View source) {
@@ -31,7 +31,7 @@ public class ShowNewsActivity_ViewBinding<T extends ShowNewsActivity> implements
     View view;
     view = Utils.findRequiredView(source, R.id.iv_back, "field 'ivBack' and method 'back'");
     target.ivBack = Utils.castView(view, R.id.iv_back, "field 'ivBack'", ImageView.class);
-    view2131361801 = view;
+    view2131361805 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -40,7 +40,7 @@ public class ShowNewsActivity_ViewBinding<T extends ShowNewsActivity> implements
     });
     view = Utils.findRequiredView(source, R.id.iv_menu, "field 'ivMenu' and method 'showMenu'");
     target.ivMenu = Utils.castView(view, R.id.iv_menu, "field 'ivMenu'", ImageView.class);
-    view2131361802 = view;
+    view2131361806 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -49,7 +49,7 @@ public class ShowNewsActivity_ViewBinding<T extends ShowNewsActivity> implements
     });
     view = Utils.findRequiredView(source, R.id.tv_comment_num, "field 'tvComment_num' and method 'gotoComment'");
     target.tvComment_num = Utils.castView(view, R.id.tv_comment_num, "field 'tvComment_num'", TextView.class);
-    view2131361803 = view;
+    view2131361807 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -72,12 +72,12 @@ public class ShowNewsActivity_ViewBinding<T extends ShowNewsActivity> implements
     target.webView = null;
     target.progressBar = null;
 
-    view2131361801.setOnClickListener(null);
-    view2131361801 = null;
-    view2131361802.setOnClickListener(null);
-    view2131361802 = null;
-    view2131361803.setOnClickListener(null);
-    view2131361803 = null;
+    view2131361805.setOnClickListener(null);
+    view2131361805 = null;
+    view2131361806.setOnClickListener(null);
+    view2131361806 = null;
+    view2131361807.setOnClickListener(null);
+    view2131361807 = null;
 
     this.target = null;
   }

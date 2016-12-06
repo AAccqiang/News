@@ -34,4 +34,10 @@ public class NewsManager {
                                 "&cnt=20",listener,errorListener);
     }
 
+    public static void  getComment(Context context, int nid, int dir,int cid, Response.Listener<String> listener, Response.ErrorListener errorListener){
+        String stamp = CommonUtils.getCurrentData();
+        VolleyHttp http = new VolleyHttp(context);
+        http.sendStringRequest(Url.COMMENT + "?ver=0&nid="+nid+"&type=1&stamp="+stamp+"&cid="+cid+"&dir="+dir+"&cnt=20",listener,errorListener);
+    }
+
 }
