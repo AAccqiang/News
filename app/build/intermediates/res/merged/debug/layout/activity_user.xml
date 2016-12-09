@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/ll_container"
     >
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -43,9 +44,10 @@
        >
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/head"
+            android:id="@+id/iv_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_launcher"
             android:layout_marginLeft="20dp"
             android:layout_centerVertical="true"
             />
@@ -58,6 +60,7 @@
             android:orientation="vertical"
            >
             <TextView
+                android:id="@+id/tv_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="你的名字"
@@ -78,6 +81,7 @@
                     />
 
                 <TextView
+                    android:id="@+id/tv_num"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"/>
@@ -131,6 +135,7 @@
                    android:layout_marginLeft="20dp"/>
 
                <TextView
+                   android:id="@+id/tv_comment_count"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:text="0"
@@ -138,11 +143,13 @@
                    />
            </LinearLayout>
 
-            <TextView
+            <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@drawable/line_user"
+                android:background="#ccc"
                 />
+
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -151,6 +158,13 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="8dp"></ListView>
 
         </LinearLayout>
     </RelativeLayout>

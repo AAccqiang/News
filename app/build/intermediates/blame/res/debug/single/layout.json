@@ -32,12 +32,12 @@
         "source": "E:\\News\\app\\src\\main\\res\\layout\\popup_window.xml"
     },
     {
-        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user.xml",
-        "source": "E:\\News\\app\\src\\main\\res\\layout\\activity_user.xml"
-    },
-    {
         "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register.xml",
         "source": "E:\\News\\app\\src\\main\\res\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\activity_user.xml"
     },
     {
         "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_news.xml",
@@ -90,6 +90,14 @@
     {
         "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_forget_password.xml",
         "source": "E:\\News\\app\\src\\main\\res\\layout\\fragment_forget_password.xml"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loginlog_list_item.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\loginlog_list_item.xml"
+    },
+    {
+        "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_phone_layout.xml",
+        "source": "E:\\News\\app\\src\\main\\res\\layout\\popup_phone_layout.xml"
     },
     {
         "merged": "E:\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lead.xml",

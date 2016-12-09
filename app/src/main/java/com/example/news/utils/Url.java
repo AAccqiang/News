@@ -23,4 +23,11 @@ public class Url {
     public static final String COMMENT = BASE_URL + "/cmt_list";
 
     public static final String CMT_COMMENT = BASE_URL + "/cmt_commit";
+    //用户中心地址
+    public static  final String USER_HOME = BASE_URL + "/user_home";
+
+    public static  final String USER_IMAGE= BASE_URL + "/user_image";
+
+    //获取版本更新接口地址
+    public static  final String UPDATE_VERSION = BASE_URL + "/update";
 }

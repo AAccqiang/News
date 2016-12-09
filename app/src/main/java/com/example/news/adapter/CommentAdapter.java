@@ -85,8 +85,8 @@ public class CommentAdapter extends BaseAdapter {
             holder = (ViewHolder) view.getTag();
         }
         CommentEntity commentEntity = list.get(i);
-        //loadImage.displayBitmap(commentEntity.getPortrait(), holder.iv_comment_img);
-        holder.iv_comment_img.setImageResource(R.drawable.biz_pc_main_info_profile_avatar_bg_dark);
+        loadImage.displayBitmap(commentEntity.getPortrait(), holder.iv_comment_img);
+      //  holder.iv_comment_img.setImageResource(R.drawable.biz_pc_main_info_profile_avatar_bg_dark);
         holder.tv_comment_uid.setText(commentEntity.getUid());
         holder.tv_comment_stamp.setText(commentEntity.getStamp());
         holder.tv_comment_content.setText(commentEntity.getContent());

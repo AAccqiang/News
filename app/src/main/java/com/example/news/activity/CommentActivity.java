@@ -145,7 +145,8 @@ public class CommentActivity extends BaseActivity{
         BaseEntity<UserResponse> entity = SharedPreferencesUtils.readBaseEntity(this);
         String token = entity.getData().getToken();
         String imei = CommonUtils.getIMEI(this);
-        String name = SharedPreferencesUtils.readName(this);
+        List<String> list = SharedPreferencesUtils.readName(this);
+        String name = list.get(0);
         if(name.equals("")){
             CommonUtils.showShort(this,"请登陆后才评论");
             return;
@@ -153,6 +154,7 @@ public class CommentActivity extends BaseActivity{
 
        OkHttpUtils.doGet(Url.CMT_COMMENT + "?ver=0&nid="+nid+"&token="+token+"&imei="+imei+"&ctx="+content,successListener,failListener);
 
+        etContent.setText("");
     }
 
     private SuccessListener successListener = new SuccessListener() {

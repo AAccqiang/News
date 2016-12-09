@@ -32,7 +32,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.news.activity.LogoActivity" />
-        <activity android:name="com.example.news.activity.HomeActivity" />
+        <activity
+            android:name="com.example.news.activity.HomeActivity"
+            android:launchMode="singleTask" />
         <activity android:name="com.example.news.activity.ShowNewsActivity" />
         <activity android:name="com.example.news.activity.UserActivity" />
         <activity android:name="com.example.news.activity.CommentActivity" />

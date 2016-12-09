@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\News\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from E:\News\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from E:\News\app\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from E:\News\app\src\main\AndroidManifest.xml
@@ -47,7 +47,7 @@ MERGED from [com.jakewharton:butterknife:8.4.0] E:\News\app\build\intermediates\
 		INJECTED from E:\News\app\src\main\AndroidManifest.xml
 		INJECTED from E:\News\app\src\main\AndroidManifest.xml
 application
-ADDED from E:\News\app\src\main\AndroidManifest.xml:17:5-41:19
+ADDED from E:\News\app\src\main\AndroidManifest.xml:17:5-43:19
 	android:label
 		ADDED from E:\News\app\src\main\AndroidManifest.xml:20:9-41
 	android:allowBackup
@@ -81,18 +81,20 @@ ADDED from E:\News\app\src\main\AndroidManifest.xml:35:9-84
 	android:name
 		ADDED from E:\News\app\src\main\AndroidManifest.xml:35:19-72
 activity#com.example.news.activity.HomeActivity
-ADDED from E:\News\app\src\main\AndroidManifest.xml:36:9-84
+ADDED from E:\News\app\src\main\AndroidManifest.xml:36:9-37:56
+	android:launchMode
+		ADDED from E:\News\app\src\main\AndroidManifest.xml:37:13-44
 	android:name
 		ADDED from E:\News\app\src\main\AndroidManifest.xml:36:19-72
 activity#com.example.news.activity.ShowNewsActivity
-ADDED from E:\News\app\src\main\AndroidManifest.xml:37:9-63
+ADDED from E:\News\app\src\main\AndroidManifest.xml:39:9-63
 	android:name
-		ADDED from E:\News\app\src\main\AndroidManifest.xml:37:19-60
+		ADDED from E:\News\app\src\main\AndroidManifest.xml:39:19-60
 activity#com.example.news.activity.UserActivity
-ADDED from E:\News\app\src\main\AndroidManifest.xml:38:9-58
+ADDED from E:\News\app\src\main\AndroidManifest.xml:40:9-58
 	android:name
-		ADDED from E:\News\app\src\main\AndroidManifest.xml:38:19-56
+		ADDED from E:\News\app\src\main\AndroidManifest.xml:40:19-56
 activity#com.example.news.activity.CommentActivity
-ADDED from E:\News\app\src\main\AndroidManifest.xml:39:9-61
+ADDED from E:\News\app\src\main\AndroidManifest.xml:41:9-61
 	android:name
-		ADDED from E:\News\app\src\main\AndroidManifest.xml:39:19-59
+		ADDED from E:\News\app\src\main\AndroidManifest.xml:41:19-59

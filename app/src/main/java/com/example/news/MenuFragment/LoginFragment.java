@@ -98,17 +98,16 @@ public class LoginFragment extends Fragment {
                 if(baseEntity.getData().getResult() == 0){
 
                     String username = etNickname.getText().toString();
-                    SharedPreferencesUtils.saveName(getActivity(),username);
+                    String password = etPassword.getText().toString();
+                    SharedPreferencesUtils.saveName(getActivity(),username,password);
                     SharedPreferencesUtils.saveBaseEntity(getActivity(),baseEntity);
 
-//                    MessageEvent messageEvent = new MessageEvent();
-//                    messageEvent.setType(MessageEvent.TYPE_MAIN_FRAGMENT);
-//                    EventBus.getDefault().post(messageEvent);
+                    MessageEvent messageEvent = new MessageEvent();
+                    messageEvent.setType(MessageEvent.TYPE_MAIN_FRAGMENT);
+                    EventBus.getDefault().post(messageEvent);
 
                     startActivity(new Intent(getActivity(), UserActivity.class));
 
-
-                    getActivity().overridePendingTransition(R.anim.right_in,R.anim.bottom_out);
                 }else{
                     CommonUtils.showShort(getActivity(),baseEntity.getData().getExplanin());
                 }
@@ -124,4 +123,11 @@ public class LoginFragment extends Fragment {
             CommonUtils.showShort(getActivity(),"网络异常,请重试");
         }
     };
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        etNickname.setText("");
+        etPassword.setText("");
+    }
 }
